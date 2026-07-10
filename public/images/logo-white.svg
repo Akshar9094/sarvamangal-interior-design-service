@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" fill="none">
+  <defs>
+    <linearGradient id="sGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a574"/>
+      <stop offset="35%" stop-color="#c8783c"/>
+      <stop offset="70%" stop-color="#a65929"/>
+      <stop offset="100%" stop-color="#7a3d18"/>
+    </linearGradient>
+    <linearGradient id="sGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0a870"/>
+      <stop offset="50%" stop-color="#c8783c"/>
+      <stop offset="100%" stop-color="#8a4720"/>
+    </linearGradient>
+    <linearGradient id="handleGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#c0c0c0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- S Shape with door handle -->
+  <g transform="translate(10, 5)">
+    <path d="M55 10 C75 5, 90 15, 85 35 C80 50, 65 55, 50 55" 
+          stroke="url(#sGrad2)" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="55" cy="15" r="8" fill="url(#sGrad2)" opacity="0.9"/>
+    <path d="M50 55 C35 55, 15 65, 18 82 C22 100, 45 108, 65 100" 
+          stroke="url(#sGrad1)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <rect x="46" y="28" width="7" height="50" rx="3.5" fill="url(#handleGrad)" stroke="#d0d0d0" stroke-width="0.5"/>
+    <circle cx="49.5" cy="30" r="4" fill="#f0f0f0" stroke="#d0d0d0" stroke-width="0.5"/>
+  </g>
+  
+  <!-- SARVAMANGAL text (white for dark bg) -->
+  <text x="120" y="62" font-family="'Playfair Display', 'Georgia', serif" font-size="42" font-weight="800" fill="#ffffff" letter-spacing="3">
+    <tspan font-variant="small-caps">S</tspan><tspan font-size="36" font-variant="small-caps">ARVAMANGAL</tspan>
+  </text>
+  
+  <!-- INTERIOR CHOICE text with lines -->
+  <line x1="120" y1="82" x2="170" y2="82" stroke="#c8783c" stroke-width="1.5"/>
+  <text x="180" y="88" font-family="'Outfit', 'Arial', sans-serif" font-size="18" font-weight="500" fill="#c8783c" letter-spacing="6">
+    INTERIOR CHOICE
+  </text>
+  <line x1="418" y1="82" x2="475" y2="82" stroke="#c8783c" stroke-width="1.5"/>
+</svg>
