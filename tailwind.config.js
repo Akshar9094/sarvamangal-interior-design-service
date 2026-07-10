@@ -13,9 +13,9 @@ export default {
         light: '#f9f9f9',
       },
       fontFamily: {
-        sans: ['Outfit', 'sans-serif'],
-        serif: ['Playfair Display', 'serif'],
-        cursive: ['Dancing Script', 'cursive'],
+        sans: ['Montserrat', 'sans-serif'],
+        serif: ['Cormorant Garamond', 'serif'],
+        cursive: ['Great Vibes', 'cursive'],
       },
     },
   },
